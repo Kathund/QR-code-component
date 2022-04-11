@@ -19,6 +19,13 @@ body {
     display: flex;
 }
 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container {
     width: 255px;
     height: auto;
@@ -53,4 +60,5 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    
 }
